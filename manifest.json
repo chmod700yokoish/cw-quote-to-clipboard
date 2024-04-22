@@ -1,0 +1,13 @@
+{
+  "name": "Add Quote to Clipboard Button",
+  "description": "This extension adds the button quote to clipboard",
+  "version": "0.1",
+  "manifest_version": 3,
+  "permissions": ["clipboardWrite"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.chatwork.com/*"],
+      "js": ["quoteToClipboard.js"]
+    }
+  ]
+}
