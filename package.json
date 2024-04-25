@@ -4,7 +4,8 @@
   "description": "",
   "main": "quoteToClipboard.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "biome format --write ./quoteToClipboard.js",
+    "lint": "biome lint --apply ./quoteToClipboard.js"
   },
   "keywords": [],
   "author": "",
